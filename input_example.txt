@@ -1,5 +1,5 @@
 this is an example text.
 if the text is still readable,
 the code is not perfect
-(it may be easily reversed, the main idea is that you
-shouldn't be able to read it straight away)
+(the algorithm may be easily reversed, the main idea is that you
+shouldn't be able to read the text straight away)
