@@ -1,1 +1,1 @@
-# python-string-randomiser
+# python-string-randomizer
