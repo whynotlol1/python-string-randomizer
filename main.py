@@ -5,7 +5,7 @@ import random
 
 
 def main():
-    with open('main/in.txt', 'r') as f:
+    with open('in.txt', 'r') as f:
         input_text = [list(s.split()) for s in f.readlines()]
 
     output_text = [[] for _ in range(len(input_text))]
@@ -36,7 +36,7 @@ def main():
     for el in output_text:
         el.append('\n')
 
-    with open('main/out.txt', 'w') as f:
+    with open('out.txt', 'w') as f:
         string = ''
         for line in output_text:
             for word in line:
