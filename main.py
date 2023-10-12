@@ -1,8 +1,11 @@
+# you need to create the in.txt file in the same directory you put the main.py file in. 
+# the out.txt file will be automatically created by the program.
+
 import random
 
 
 def main():
-    with open('in.txt', 'r') as f:
+    with open('main/in.txt', 'r') as f:
         input_text = [list(s.split()) for s in f.readlines()]
 
     output_text = [[] for _ in range(len(input_text))]
@@ -33,7 +36,7 @@ def main():
     for el in output_text:
         el.append('\n')
 
-    with open('out.txt', 'w') as f:
+    with open('main/out.txt', 'w') as f:
         string = ''
         for line in output_text:
             for word in line:
